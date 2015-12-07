@@ -1,0 +1,22 @@
+#about figure{
+  padding: 10px;
+  border-radius: 2px;
+  background-color: white;
+  box-shadow: 2px 2px 6px gray;
+}
+#about p{
+  padding-right: 1em;
+}
+#about figure img{
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+#about figure figcaption{
+  padding: 20px 0px 10px 0px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}

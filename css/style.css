@@ -1,0 +1,36 @@
+body{
+  color: gray;
+  font-family: 'Oxygen', sans-serif;
+  line-height: 1.7em;
+  margin-bottom: 3em;
+}
+h2{
+  text-transform: uppercase;
+  color: #ED1C24;
+  font-size: 22px;
+}
+html, body{
+  background: url('../img/brushed.png');
+  height: auto;
+}
+.btn-red{
+  background-color: #B60017;
+  border-color: #B60017;
+  color: white!important;
+}
+.btn-red:hover{
+  background-color: #CC1A31;
+}
+.btn-red:active{
+  background-color: #C5273C;
+}
+@media (max-width: 991px){
+  #about, #contact, #home{
+    margin-bottom: 5em;
+  }
+}
+@media (min-width: 940px){
+  .container {
+      width: 940px;
+  }
+}
